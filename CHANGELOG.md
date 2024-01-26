@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.0.2...vite-plugin-esi-v1.0.3) (2024-01-26)
+
+
+### Miscellaneous Chores
+
+* Release 1.0.3 ([ff6fe82](https://github.com/marcusthelin/vite-plugin-esi/commit/ff6fe82bb0405edfd5b84ad324c30e3395088712))
+
 ## [1.0.2](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.0.1...vite-plugin-esi-v1.0.2) (2024-01-26)
 
 
