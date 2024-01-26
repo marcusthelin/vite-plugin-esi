@@ -1,5 +1,5 @@
 # vite-plugin-esi
-Vite plugin to resolve ESI with Nodesi.
+Vite plugin to resolve ESI with [nodesi](https://www.npmjs.com/package/nodesi).
 
 ## Getting Started
 
