@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.0.4...vite-plugin-esi-v1.0.5) (2024-01-27)
+
+
+### Documentation
+
+* Documentation update ([1041725](https://github.com/marcusthelin/vite-plugin-esi/commit/10417259b8680939983eaa49fed33d1b405c3be1))
+
 ## [1.0.4](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.0.3...vite-plugin-esi-v1.0.4) (2024-01-27)
 
 
