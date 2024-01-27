@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.0.3...vite-plugin-esi-v1.0.4) (2024-01-27)
+
+
+### Miscellaneous Chores
+
+* Set urls in package json ([9c04327](https://github.com/marcusthelin/vite-plugin-esi/commit/9c0432709987bc9c412580e212a4147bab3214ed))
+
 ## [1.0.3](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.0.2...vite-plugin-esi-v1.0.3) (2024-01-26)
 
 
