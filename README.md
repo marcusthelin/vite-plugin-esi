@@ -11,11 +11,13 @@ npm i -D vite-plugin-esi
 yarn add -D vite-plugin-esi
 ```
 ```bash
-pnnpm add -D vite-plugin-esi
+pnpm add -D vite-plugin-esi
 ```
 
 ### Basic Usage
 Use the required `esi` option to define ESI tags to be resolved. The keys of the object are the names of the html comments that will be replaced with the resolved ESI tags.
+
+This plugin uses html comments to determine where the ESI tags (or resolved ESI tags) should be placed.
 
 Comments must be in the following format:
 ```html
