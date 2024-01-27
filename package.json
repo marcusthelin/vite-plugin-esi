@@ -4,6 +4,10 @@
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/marcusthelin/vite-plugin-esi"
+  },
+  "homepage": "https://github.com/marcusthelin/vite-plugin-esi",
   "files": [
     "dist"
   ],
