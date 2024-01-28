@@ -1,25 +1,6 @@
 import ESI from 'nodesi';
 import type { Plugin } from 'vite';
-
-type Tag = {
-    src: string;
-    type?: 'include' | 'remove';
-    onError?: 'continue' | 'abort';
-};
-
-export type NodeEsiOptions = {
-    onError: (src: string, err: Error) => string;
-    allowedHosts: string[];
-    baseUrl: string;
-};
-
-export type Options = {
-    esiOptions?: NodeEsiOptions;
-    esi: {
-        [name: string]: Tag[];
-    };
-    resolveESI?: boolean;
-};
+import { Options } from './types';
 
 export default function esiPlugin(options: Options): Plugin {
     const resolveESI = options.resolveESI ?? true;
