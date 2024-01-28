@@ -1,5 +1,5 @@
-import { NameNotFoundError, TagsNotFoundError } from './errors';
-import { EsiOptions, Options } from './types';
+import { TagsNotFoundError } from './errors';
+import { EsiOptions } from './types';
 const regex = /<!--*\s*vite-plugin-esi\s(name="(?<name>[a-zA-Z0-9]+)").*->/g; // example <!-- vite-plugin-esi name="header" -->
 
 // Will transform the html by replacing the special comments with the esi tags
