@@ -1,8 +1,6 @@
-import { NameNotFoundError, TagsNotFoundError } from '../errors';
+import { TagsNotFoundError } from '../errors';
 import { transformHtml } from '../transform';
 import { EsiOptions } from '../types';
-
-// jest.mock('fetch');
 
 describe('transformHtml', () => {
     type TestCase = {
