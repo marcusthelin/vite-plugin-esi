@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.2.0...vite-plugin-esi-v1.2.1) (2024-04-26)
+
+
+### Bug Fixes
+
+* Fix module ([723a532](https://github.com/marcusthelin/vite-plugin-esi/commit/723a532d0593f5321be7e4a2bc39f7bc7d6ba8da))
+
 ## [1.2.0](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.1.0...vite-plugin-esi-v1.2.0) (2024-04-26)
 
 
