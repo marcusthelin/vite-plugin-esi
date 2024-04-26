@@ -6,6 +6,13 @@
 	"main": "dist/index.js",
 	"module": "dist/index.cjs",
 	"types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
 	"repository": {
 		"url": "https://github.com/marcusthelin/vite-plugin-esi"
 	},
