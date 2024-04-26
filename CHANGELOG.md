@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.8](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.0.7...vite-plugin-esi-v1.0.8) (2024-04-26)
+
+
+### Bug Fixes
+
+* Exclude tests from dist ([97c073e](https://github.com/marcusthelin/vite-plugin-esi/commit/97c073ebab0ff458c7f3fd1e36691882dd60082a))
+
 ## [1.0.7](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.0.6...vite-plugin-esi-v1.0.7) (2024-04-26)
 
 
