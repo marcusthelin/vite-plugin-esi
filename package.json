@@ -1,27 +1,31 @@
 {
-  "name": "vite-plugin-esi",
-  "version": "1.0.5",
-  "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "repository": {
-    "url": "https://github.com/marcusthelin/vite-plugin-esi"
-  },
-  "homepage": "https://github.com/marcusthelin/vite-plugin-esi",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "tsc",
-    "prepare": "tsc"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "vite": "5.0.12"
-  },
-  "dependencies": {
-    "nodesi": "2.0.0"
-  }
+	"name": "vite-plugin-esi",
+	"version": "1.0.5",
+	"description": "",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"repository": {
+		"url": "https://github.com/marcusthelin/vite-plugin-esi"
+	},
+	"homepage": "https://github.com/marcusthelin/vite-plugin-esi",
+	"files": ["dist"],
+	"scripts": {
+		"build": "tsc",
+		"test": "jest",
+		"lint:ci": "biome ci src --changed",
+		"prepare": "tsc"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "1.7.1",
+		"@types/jest": "29.5.12",
+		"jest": "29.7.0",
+		"ts-jest": "29.1.2",
+		"vite": "5.2.10"
+	},
+	"dependencies": {
+		"nodesi": "2.0.1"
+	}
 }
