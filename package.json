@@ -24,7 +24,7 @@
 		"build": "tsup",
 		"test": "jest",
 		"lint:ci": "biome ci src --changed",
-		"prepare": "tsc"
+		"prepare": "tsup"
 	},
 	"keywords": [
 		"vite",
