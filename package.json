@@ -2,7 +2,9 @@
 	"name": "vite-plugin-esi",
 	"version": "1.1.0",
 	"description": "",
+  "type": "module",
 	"main": "dist/index.js",
+  "module": "dist/index.mjs",
 	"types": "dist/index.d.ts",
 	"repository": {
 		"url": "https://github.com/marcusthelin/vite-plugin-esi"
@@ -12,7 +14,7 @@
 		"dist"
 	],
 	"scripts": {
-		"build": "tsc",
+		"build": "tsup",
 		"test": "jest",
 		"lint:ci": "biome ci src --changed",
 		"prepare": "tsc"
@@ -30,6 +32,7 @@
 		"@types/jest": "29.5.12",
 		"jest": "29.7.0",
 		"ts-jest": "29.1.2",
+		"tsup": "8.0.2",
 		"vite": "5.2.10"
 	},
 	"dependencies": {
