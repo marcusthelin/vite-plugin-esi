@@ -4,7 +4,7 @@
 	"description": "",
 	"type": "module",
 	"main": "dist/index.js",
-	"module": "dist/index.mjs",
+	"module": "dist/index.cjs",
 	"types": "dist/index.d.ts",
 	"repository": {
 		"url": "https://github.com/marcusthelin/vite-plugin-esi"
