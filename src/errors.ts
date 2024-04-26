@@ -1,6 +1,6 @@
 export class TagsNotFoundError extends Error {
-    constructor(message: string) {
-        super(message);
-        this.name = 'TagsNotFoundError';
-    }
+	constructor(message: string) {
+		super(message);
+		this.name = 'TagsNotFoundError';
+	}
 }
