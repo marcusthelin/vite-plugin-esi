@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.4](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.2.3...vite-plugin-esi-v1.2.4) (2024-04-26)
+
+
+### Bug Fixes
+
+* Prepare script ([0bb1624](https://github.com/marcusthelin/vite-plugin-esi/commit/0bb162499dad776d8782845d2e9a44e2c72a559f))
+
 ## [1.2.3](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.2.2...vite-plugin-esi-v1.2.3) (2024-04-26)
 
 
