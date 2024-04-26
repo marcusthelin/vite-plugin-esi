@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.2.2...vite-plugin-esi-v1.2.3) (2024-04-26)
+
+
+### Bug Fixes
+
+* Exports field ([96eb0dd](https://github.com/marcusthelin/vite-plugin-esi/commit/96eb0dde181b5be04675f21e627cb9389e50b354))
+
 ## [1.2.2](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.2.1...vite-plugin-esi-v1.2.2) (2024-04-26)
 
 
