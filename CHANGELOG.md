@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.0.6...vite-plugin-esi-v1.0.7) (2024-04-26)
+
+
+### Bug Fixes
+
+* Add keywords ([f0e9d64](https://github.com/marcusthelin/vite-plugin-esi/commit/f0e9d6493ff949a7a0120eb5718d3d953c554cb5))
+
 ## [1.0.6](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.0.5...vite-plugin-esi-v1.0.6) (2024-04-26)
 
 

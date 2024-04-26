@@ -1,6 +1,6 @@
 {
 	"name": "vite-plugin-esi",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"description": "",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -18,11 +18,11 @@
 		"prepare": "tsc"
 	},
 	"keywords": [
-    "vite",
-    "vite plugin",
-    "esi",
-    "nodesi"
-  ],
+		"vite",
+		"vite plugin",
+		"esi",
+		"nodesi"
+	],
 	"author": "",
 	"license": "MIT",
 	"devDependencies": {
