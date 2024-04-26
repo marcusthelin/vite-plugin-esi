@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.0.9...vite-plugin-esi-v1.1.0) (2024-04-26)
+
+
+### Features
+
+* Output ES6 ([77f9f01](https://github.com/marcusthelin/vite-plugin-esi/commit/77f9f0108bc3f68a70f8c041d7a9181dce7c206d))
+
 ## [1.0.9](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.0.8...vite-plugin-esi-v1.0.9) (2024-04-26)
 
 
