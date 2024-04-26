@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.1.0...vite-plugin-esi-v1.2.0) (2024-04-26)
+
+
+### Features
+
+* Revert to commonjs ([507bf1e](https://github.com/marcusthelin/vite-plugin-esi/commit/507bf1eb52176dbb638fff492447a44c5b6cad96))
+
 ## [1.1.0](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.0.9...vite-plugin-esi-v1.1.0) (2024-04-26)
 
 
