@@ -1,6 +1,6 @@
 {
 	"name": "vite-plugin-esi",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -8,7 +8,9 @@
 		"url": "https://github.com/marcusthelin/vite-plugin-esi"
 	},
 	"homepage": "https://github.com/marcusthelin/vite-plugin-esi",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "tsc",
 		"test": "jest",

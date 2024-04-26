@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.0.5...vite-plugin-esi-v1.0.6) (2024-04-26)
+
+
+### Bug Fixes
+
+* Add tests ([#8](https://github.com/marcusthelin/vite-plugin-esi/issues/8)) ([1004ebd](https://github.com/marcusthelin/vite-plugin-esi/commit/1004ebde3de4156208c56d085702ee6a3c2d39c3))
+
 ## [1.0.5](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.0.4...vite-plugin-esi-v1.0.5) (2024-01-27)
 
 
