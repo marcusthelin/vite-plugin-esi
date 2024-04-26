@@ -1,10 +1,10 @@
 import ESI, { type NodeEsiOptions } from 'nodesi';
 import { TagsNotFoundError } from './errors';
 import type { EsiOptions } from './types';
-const regex = /<!--*\s*vite-plugin-esi\s(name="(?<name>[a-zA-Z0-9]+)").*->/g; // example <!-- vite-plugin-esi name="header" -->
 
 // Will transform the html by replacing the special comments with the esi tags
 export function transformHtml(html: string, options: EsiOptions): string {
+	const regex = /<!--*\s*vite-plugin-esi\s(name="(?<name>[a-zA-Z0-9]+)").*->/g; // example <!-- vite-plugin-esi name="header" -->
 	return html.replace(regex, (_match, _, __, ___, ____, groups) => {
 		const tags = options[groups.name];
 		if (!tags) {
@@ -20,7 +20,8 @@ export function transformHtml(html: string, options: EsiOptions): string {
 	});
 }
 
-export function resolveESI(html: string, options?: NodeEsiOptions) {
+export async function resolveESI(html: string, options?: NodeEsiOptions) {
 	const esi = new ESI(options);
-	return esi.process(html);
+	const resolvedHtml = await esi.process(html);
+	return resolvedHtml;
 }
