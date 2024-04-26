@@ -17,7 +17,12 @@
 		"lint:ci": "biome ci src --changed",
 		"prepare": "tsc"
 	},
-	"keywords": [],
+	"keywords": [
+    "vite",
+    "vite plugin",
+    "esi",
+    "nodesi"
+  ],
 	"author": "",
 	"license": "MIT",
 	"devDependencies": {
