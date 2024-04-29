@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.2.4...vite-plugin-esi-v1.3.0) (2024-04-29)
+
+
+### Features
+
+* Add headers option ([#21](https://github.com/marcusthelin/vite-plugin-esi/issues/21)) ([c9eaec9](https://github.com/marcusthelin/vite-plugin-esi/commit/c9eaec9a9cd684b456cbc5d9153528d64e66689a))
+
 ## [1.2.4](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.2.3...vite-plugin-esi-v1.2.4) (2024-04-26)
 
 
