@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.3.0...vite-plugin-esi-v1.3.1) (2024-04-29)
+
+
+### Bug Fixes
+
+* Options change ([6680e8b](https://github.com/marcusthelin/vite-plugin-esi/commit/6680e8ba96c5b10c9290a283129a4634aa260161))
+
 ## [1.3.0](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.2.4...vite-plugin-esi-v1.3.0) (2024-04-29)
 
 
