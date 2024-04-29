@@ -22,6 +22,6 @@ export function transformHtml(html: string, options: EsiOptions): string {
 
 export async function resolveESI(html: string, options?: NodeEsiOptions) {
 	const esi = new ESI(options);
-	const resolvedHtml = await esi.process(html);
+	const resolvedHtml = await esi.process(html, { headers: options?.headers });
 	return resolvedHtml;
 }

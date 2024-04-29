@@ -95,7 +95,16 @@ describe('resolveESI', () => {
 			text: () => Promise.resolve('resolved'),
 		});
 
-		const resolvedHtml = await resolveESI(html);
+		const resolvedHtml = await resolveESI(html, {
+			headers: {
+				test: 'test',
+			},
+		});
+
+		// Check that headers have been passed to fetch
+		expect(fetchMock).toHaveBeenCalled();
+		expect(fetchMock.mock.calls[0][1].headers.test).toBe('test');
+
 		expect(resolvedHtml).toBe('resolved');
 	});
 });
