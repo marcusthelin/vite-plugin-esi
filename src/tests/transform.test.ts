@@ -1,6 +1,6 @@
 import { TagsNotFoundError } from '../errors';
 import { resolveESI, transformHtml } from '../transform';
-import type { EsiOptions } from '../types';
+import type { EsiTags } from '../types';
 
 global.fetch = jest.fn();
 
@@ -8,7 +8,7 @@ describe('transformHtml', () => {
 	type TestCase = {
 		input: {
 			html: string;
-			options: EsiOptions;
+			options: EsiTags;
 		};
 		expected: string | Error;
 		name: string;

@@ -1,5 +1,9 @@
 declare module 'nodesi' {
-	type NodeEsiOptions = import('./types').NodeEsiOptions;
+	type NodeEsiOptions = {
+		onError?: (src: string, err: Error) => string;
+		allowedHosts?: string[];
+		baseUrl?: string;
+	};
 	type ProcessOptions = {
 		headers?: Record<string, string>;
 	};
