@@ -5,9 +5,10 @@ export type Tag = {
 };
 
 export type NodeEsiOptions = {
-	onError: (src: string, err: Error) => string;
-	allowedHosts: string[];
-	baseUrl: string;
+	onError?: (src: string, err: Error) => string;
+	allowedHosts?: string[];
+	baseUrl?: string;
+	headers?: Record<string, string>;
 };
 
 export type EsiOptions = {
