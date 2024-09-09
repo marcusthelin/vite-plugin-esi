@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.3.1...vite-plugin-esi-v1.3.2) (2024-09-09)
+
+
+### Bug Fixes
+
+* Update target in tsconfig ([eea9065](https://github.com/marcusthelin/vite-plugin-esi/commit/eea906587cc963983cd27f05560d30d8a099d126))
+
 ## [1.3.1](https://github.com/marcusthelin/vite-plugin-esi/compare/vite-plugin-esi-v1.3.0...vite-plugin-esi-v1.3.1) (2024-04-29)
 
 
